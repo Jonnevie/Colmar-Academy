@@ -480,6 +480,10 @@ font-size: 2rem;
     display: none;
 }
 
+.thesis-mobile {
+    display: contents;
+}
+
 .video-mobile video {
     width: 100%;
     margin-bottom: 24px;
