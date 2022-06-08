@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+    font-size: 18px;
+}
+
+.desktop-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+
+}
+
+.logo-desktop {
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    height: 32px;
+
+}
+
+.logo-desktop img {
+    height: 40px;
+}
+
+.logo-text {
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding-left: 2%;
+}
+.greytext-logo {
+    color: grey;
+    font-weight: lighter;
+    font-size: 1.1rem;
+}
+
+.navlinks-desktop a{
+    text-decoration: none;
+    padding: 16px;
+    font-size: smaller;
+    color: black;
+}
+
+.main-banner-section {
+    background-color: #d8d8d8;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-auto-rows: auto;
+    grid-template-areas: 'bannerpic maintext';
+}
+
+.main-banner-section img{
+    grid-area: 'bannerpic';
+    width: 100%;
+    padding: 32px 24px;
+}
+
+.main-bannertext {
+    grid-area: 'maintext';
+    align-self: center;
+    padding: 0 24px;
+    color: #4a4a4a;
+}
+
+.main-bannertext h1 {
+    font-size: 1.8rem;
+    padding-bottom: 20px;
+}
+
+.main-bannertext p {
+    font-weight: 500;
+    padding-bottom: 20px;
+    font-size: 0.9rem;
+}
+
+.starthere-button {
+    background-color: #4a4a4a;
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 8px 0;
+    font-size: smaller;
+}
+
+.second-section {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:'practicing orientation'
+                        'practicing orientation'
+                        'practicing orientation';
+}
+
+.doesnthurt-section {
+    grid-area: 'practicing';
+}
+
+.doesnthurt-section img{
+    width: 100%;
+    padding: 32px 24px;
+}
+
+.doesnthurt-section h1 {
+    font-size: 1.5rem;
+    padding: 0 24px 24px;
+    color: #4a4a4a;
+}
+
+.doesnthurt-section p {
+    font-size: 0.8rem;
+    padding: 0 24px 32px;
+    color: #4a4a4a;
+}
+
+.doesnthurt-section .emanuel {
+    font-size: 0.7rem;
+}
+
+.rhs-column {
+    grid-area: 'orientation';
+    align-self: center;
+}
+
+
+.orientationdate img{
+    padding: 16px;
+    width: 35%;
+    box-sizing: content-box;
+    height: max-content;
+    align-self: center;
+}
+
+
+.ourcampus img {
+    padding: 16px;
+    box-sizing: content-box;
+    width: 35%;
+    height: max-content;
+    align-self: center;
+}
+
+.ourguestlecture img {
+    padding: 16px;
+    box-sizing: content-box;
+    width: 35%;
+    height: max-content;
+    align-self: center;
+}
+.orientationtext {
+    align-self: center;
+    padding: 16px;
+   color: #4a4a4a;
+}
+.orientationtext h2{
+    font-size: 1.1rem;
+}
+.orientationtext p{
+    font-size: 0.8rem;
+    padding: 10px 0;
+}
+.orientationtext a {
+    text-decoration: none;
+    color:  #48bcef;
+    font-size: 0.7rem;
+}
+
+.campusestext {
+    align-self: center;
+    padding: 16px;
+   color: #4a4a4a;
+}
+.campusestext h2{
+    font-size: 1.1rem;
+}
+.campusestext p{
+    font-size: 0.8rem;
+    padding: 10px 0;
+}
+.campusestext a {
+    text-decoration: none;
+    color:  #48bcef;
+    font-size: 0.7rem;
+}
+
+.guesttext {
+    align-self: center;
+    padding: 16px;
+   color: #4a4a4a;
+}
+.guesttext h2{
+    font-size: 1.1rem;
+}
+.guesttext p{
+    font-size: 0.8rem;
+    padding: 10px 0;
+}
+.guesttext a {
+    text-decoration: none;
+    color:  #48bcef;
+    font-size: 0.7rem;
+}
+.orientationdate, .ourcampus, .ourguestlecture {
+    display: flex;
+}
+
+.ourguestlecture {
+    background-color: #d8d8d8;
+}
+
+.ourcampus {
+    border-top: 4px #d8d8d8 solid;
+}
