@@ -358,3 +358,135 @@ footer p{
     color: #4a4a4a;
     padding: 20px;
 }
+.mobile-nav {
+    display: none;
+}
+.main-banner-section-mobile {
+    display:none;
+}
+
+.second-section-mobile {
+    display: none;
+}
+
+.startlearning-section-mobile {
+    display: none;
+}
+
+.thesis-mobile {
+    display: none;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 701px) {
+.desktop-nav {
+    display: none;
+}	
+.mobile-nav {
+    display: flex;
+    justify-content: space-around;
+    height: 64px;
+    padding: 10px;
+}
+
+.main-banner-section {
+    display: none;
+}
+.main-banner-section-mobile {
+    display: contents;
+}
+
+.main-banner-section-mobile img {
+    display: block;
+    width: 100%;
+}
+.main-bannertext-mobile {
+    background-color: #d8d8d8;
+    color: #4a4a4a;
+    padding: 32px 19px;
+}
+.main-bannertext-mobile h1{
+padding-bottom: 32px;
+font-size: 2rem;
+
+}
+.main-bannertext-mobile p{
+    font-weight: 500;
+    padding-bottom: 24px;
+}
+
+.main-bannertext-mobile button {
+    text-align: center;
+    width: 100%;
+    border: none;
+    background-color: gray;
+    margin: auto;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+}
+.second-section {
+    display: none;
+}
+
+.second-section-mobile {
+    display: contents;
+
+}
+.second-section-mobile img {
+    width: 100%;
+    padding: 25px;
+}
+
+.orientationtext-mobile, .guesttext-mobile, .campusestext-mobile {
+    padding: 10px 40px;
+    color: #4a4a4a;
+}
+
+.second-section-mobile h2 {
+    padding-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.second-section-mobile p{
+    padding-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+.second-section-mobile a{
+    text-decoration: none;
+    font-size: 0.7rem;
+}
+
+.guesttext-mobile {
+    padding-bottom: 30px;
+}
+
+.startlearning-section {
+    display:none;
+}
+
+.startlearning-section-mobile {
+    display: contents;
+}
+.startlearning-section-mobile h3{
+    background-color: #d8d8d8;
+    margin: 8px 15px;
+    padding: 24px 16px;
+    color: #4a4a4a;
+    font-weight: 600;
+}
+
+.thesis-section {
+    display: none;
+}
+
+.video-mobile video {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.footerlinks a{
+    display: none;
+}
+
+}
