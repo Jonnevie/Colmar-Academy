@@ -235,6 +235,17 @@
     grid-auto-rows: auto;
     padding-left: 70px;
     padding-right: 80px;
+
+}
+.cards-section2 {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-areas: 'card card card';
+    grid-auto-rows: auto;
+    padding-left: 70px;
+    padding-right: 80px;
+    padding-bottom: 30px;
+
 }
 
 .cards-row1 {
